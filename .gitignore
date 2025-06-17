@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+__pycache__/
+**/__pycache__/
+
+# macOS
+.DS_Store
+
+# Python virtual environments
+.venv/
+.venv311/
+env/
+venv/
+
+# VSCode and IDEs
+.idea/
+.vscode/
+*.app/
+**/*.app/
+**/Visual Studio Code.app/
+**/*.framework/
+
+# Jupyter + Python caches
+*.ipynb_checkpoints/
+.pytest_cache/
+ipython_config.py
+
+# Logs and temp
+*.log
+*.tmp
+
+# Django-specific
+*.sqlite3
+*.db
+*.pot
+
+# Big data files
+*.csv
+*.zip
+*.pkl
+*.h5
+*.nosync
+
+# Media and downloads
+media/
+Downloads/
+media/Downloads/
+
+# Docs and generated content
+docs/
+
+# App binaries or system folders
+*.app/
+*.framework/
+*.node
+*.wasm
+*.dylib
+*.dll
+*.exe
